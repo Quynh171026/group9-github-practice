@@ -1,3 +1,5 @@
+def search_student(students, keyword):
+    result = []
 def add_student():
     id = input("Nhập ID: ")
     name = input("Nhập tên: ")
@@ -15,3 +17,8 @@ def show_students():
 
         print(f"\nTổng số sinh viên: {len(students)}")
 
+    for student in students:
+        if keyword.lower() in student.lower():
+            result.append(student)
+
+    return result

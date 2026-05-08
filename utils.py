@@ -7,7 +7,7 @@ def add_student():
     name = input("Nhập tên: ")
     student = Student(id, name)
     students.append(student)
-    print("✅ Thêm sinh viên thành công!")
+    print("Thêm sinh viên thành công!")
 
 def show_students():
     if not students:
@@ -24,4 +24,4 @@ def find_student():
             print(s)
             found = True
     if not found:
-        print("❌ Không tìm thấy!")
+        print("Không tìm thấy!")

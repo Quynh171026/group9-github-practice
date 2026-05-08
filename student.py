@@ -5,3 +5,4 @@ class Student:
 
     def __str__(self):
         return f"ID: {self.id} - Name: {self.name}"
+ print("New update from feature branch")

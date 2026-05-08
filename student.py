@@ -5,4 +5,4 @@ def add_student(name, student_id, gpa):
         "gpa": gpa
     }
     students.append(student)
-    print(f"✅ Đã thêm sinh viên: {name}")
+    print(f"Đã thêm sinh viên: {name}")

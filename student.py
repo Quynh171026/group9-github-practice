@@ -1,8 +1,8 @@
-class Student:
-    def __init__(self, id, name):
-        self.id = id
-        self.name = name
-
-    def __str__(self):
-        return f"ID: {self.id} - Name: {self.name}"
- print("New update from feature branch")
+def add_student(name, student_id, gpa):
+    student = {
+        "name": name,
+        "id": student_id,
+        "gpa": gpa
+    }
+    students.append(student)
+    print(f"✅ Đã thêm sinh viên: {name}")

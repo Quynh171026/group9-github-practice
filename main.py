@@ -1,5 +1,4 @@
-from student import search_student
-
+from utils import search_student
 students = ["An", "Binh", "Cuong", "Dung"]
 
 keyword = input("Nhap ten can tim: ")
